@@ -1,0 +1,176 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "Tu es un expert en herboristerie. Je vais te donner le nom d'une épice et tu vas me fournir les informations nécessaires pour concevoir une étiquette. Les informations doivent inclure :\n\n- Le nom scientifique de l'épice.\n- Une courte description (3 lignes max) des bienfaits et des cas d'utilisation de l'épice.\n- Deux précautions à prendre lors de l'utilisation de l'épice."
+    },
+    {
+      "role": "user",
+      "content": "Curcuma"
+    },
+    {
+      "role": "assistant",
+      "content": "Nom scientifique : Curcuma longa\n\nDescription : Le curcuma est une épice aux propriétés anti-inflammatoires et antioxydantes. Il est souvent utilisé dans la cuisine pour ses qualités colorantes et ses bienfaits pour la santé digestive.\n\nPrécautions :\n- Peut provoquer des réactions allergiques chez certaines personnes.\n- À utiliser avec modération pendant la grossesse."
+    }
+  ]
+}
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "Tu es un expert en herboristerie. Je vais te donner le nom d'une épice et tu vas me fournir les informations nécessaires pour concevoir une étiquette. Les informations doivent inclure :\n\n- Le nom scientifique de l'épice.\n- Une courte description (3 lignes max) des bienfaits et des cas d'utilisation de l'épice.\n- Deux précautions à prendre lors de l'utilisation de l'épice."
+    },
+    {
+      "role": "user",
+      "content": "Paprika"
+    },
+    {
+      "role": "assistant",
+      "content": "Nom scientifique : Capsicum annuum\n\nDescription : Le paprika est une épice douce à piquante obtenue à partir de poivrons séchés et moulus. Il est utilisé pour aromatiser divers plats et apporter une touche de couleur rouge.\n\nPrécautions :\n- Conserver dans un endroit frais et sec, à l'abri de la lumière."
+    }
+  ]
+}
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "Tu es un expert en herboristerie. Je vais te donner le nom d'une épice et tu vas me fournir les informations nécessaires pour concevoir une étiquette. Les informations doivent inclure :\n\n- Le nom scientifique de l'épice.\n- Une courte description (3 lignes max) des bienfaits et des cas d'utilisation de l'épice.\n- Deux précautions à prendre lors de l'utilisation de l'épice."
+    },
+    {
+      "role": "user",
+      "content": "4 côtés"
+    },
+    {
+      "role": "assistant",
+      "content": "Nom scientifique : Tetrapleura tetraptera\n\nDescription : Le 4 côtés, également connu sous le nom de poivre de Guinée, est une épice aromatique utilisée dans la cuisine africaine pour son arôme intense et ses propriétés médicinales.\n\nPrécautions :\n- Ne pas dépasser la dose recommandée.\n- Consulter un professionnel de santé en cas de doute sur son utilisation."
+    }
+  ]
+}
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "Tu es un expert en herboristerie. Je vais te donner le nom d'une épice et tu vas me fournir les informations nécessaires pour concevoir une étiquette. Les informations doivent inclure :\n\n- Le nom scientifique de l'épice.\n- Une courte description (3 lignes max) des bienfaits et des cas d'utilisation de l'épice.\n- Deux précautions à prendre lors de l'utilisation de l'épice."
+    },
+    {
+      "role": "user",
+      "content": "Colombo"
+    },
+    {
+      "role": "assistant",
+      "content": "Nom scientifique : None\n\nDescription : Le colombo est un mélange d'épices originaire des Antilles et de la Réunion, utilisé principalement pour assaisonner les plats en sauce. Il contient généralement du curcuma, du cumin, du coriandre, du fenugrec et d'autres épices.\n\nPrécautions :\n- À conserver dans un récipient hermétique pour préserver la fraîcheur.\n- Peut contenir des allergènes alimentaires, vérifier les étiquettes en cas d'allergies connues."
+    }
+  ]
+}
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "Tu es un expert en herboristerie. Je vais te donner le nom d'une épice et tu vas me fournir les informations nécessaires pour concevoir une étiquette. Les informations doivent inclure :\n\n- Le nom scientifique de l'épice.\n- Une courte description (3 lignes max) des bienfaits et des cas d'utilisation de l'épice.\n- Deux précautions à prendre lors de l'utilisation de l'épice."
+    },
+    {
+      "role": "user",
+      "content": "Curry"
+    },
+    {
+      "role": "assistant",
+      "content": "Nom scientifique : Mélange d'épices\n\nDescription : Le curry est un mélange d'épices originaire de l'Inde, utilisé pour parfumer les plats. Il peut contenir du curcuma, du coriandre, du cumin, du fenugrec, du gingembre et d'autres épices selon les traditions locales.\n\nPrécautions :\n- Peut provoquer des réactions allergiques chez certaines personnes sensibles.\n- À utiliser avec modération en raison de sa forte concentration en épices."
+    }
+  ]
+}
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "Tu es un expert en herboristerie. Je vais te donner le nom d'une épice et tu vas me fournir les informations nécessaires pour concevoir une étiquette. Les informations doivent inclure :\n\n- Le nom scientifique de l'épice.\n- Une courte description (3 lignes max) des bienfaits et des cas d'utilisation de l'épice.\n- Deux précautions à prendre lors de l'utilisation de l'épice."
+    },
+    {
+      "role": "user",
+      "content": "poulet boucané"
+    },
+    {
+      "role": "assistant",
+      "content": "Nom scientifique : None\n\nDescription : Le poulet boucané est un plat traditionnel antillais préparé en fumant le poulet avec des épices locales comme le bois d'inde et le piment. Il est apprécié pour son goût fumé distinctif.\n\nPrécautions :\n- Assurer une cuisson complète pour éviter les risques liés aux viandes insuffisamment cuites.\n- Utiliser du bois d'inde de qualité alimentaire pour le fumage."
+    }
+  ]
+}
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "Tu es un expert en herboristerie. Je vais te donner le nom d'une épice et tu vas me fournir les informations nécessaires pour concevoir une étiquette. Les informations doivent inclure :\n\n- Le nom scientifique de l'épice.\n- Une courte description (3 lignes max) des bienfaits et des cas d'utilisation de l'épice.\n- Deux précautions à prendre lors de l'utilisation de l'épice."
+    },
+    {
+      "role": "user",
+      "content": "feuilles d'hysope"
+    },
+    {
+      "role": "assistant",
+      "content": "Nom scientifique : Hyssopus officinalis\n\nDescription : Les feuilles d'hysope sont utilisées en herboristerie pour leurs propriétés expectorantes et antiseptiques. Elles sont souvent infusées pour préparer des tisanes bénéfiques pour les voies respiratoires.\n\nPrécautions :\n- Éviter l'utilisation prolongée sans avis médical.\n- Ne pas utiliser chez les femmes enceintes sans consultation préalable."
+    }
+  ]
+}
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "Tu es un expert en herboristerie. Je vais te donner le nom d'une épice et tu vas me fournir les informations nécessaires pour concevoir une étiquette. Les informations doivent inclure :\n\n- Le nom scientifique de l'épice.\n- Une courte description (3 lignes max) des bienfaits et des cas d'utilisation de l'épice.\n- Deux précautions à prendre lors de l'utilisation de l'épice."
+    },
+    {
+      "role": "user",
+      "content": "Feuilles de bois d'inde"
+    },
+    {
+      "role": "assistant",
+      "content": "Nom scientifique : Pimenta dioica\n\nDescription : Les feuilles de bois d'inde sont utilisées pour leurs arômes distincts dans la cuisine caribéenne. Elles sont également utilisées en médecine traditionnelle pour leurs propriétés digestives et antiseptiques.\n\nPrécautions :\n- Utiliser avec modération car le goût est puissant.\n- Conserver dans un contenant hermétique pour préserver la fraîcheur."
+    }
+  ]
+}
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "Tu es un expert en herboristerie. Je vais te donner le nom d'une épice et tu vas me fournir les informations nécessaires pour concevoir une étiquette. Les informations doivent inclure :\n\n- Le nom scientifique de l'épice.\n- Une courte description (3 lignes max) des bienfaits et des cas d'utilisation de l'épice.\n- Deux précautions à prendre lors de l'utilisation de l'épice."
+    },
+    {
+      "role": "user",
+      "content": "Bissap"
+    },
+    {
+      "role": "assistant",
+      "content": "Nom scientifique : Hibiscus sabdariffa\n\nDescription : Le bissap, également connu sous le nom de fleur d'hibiscus, est utilisé pour préparer une boisson rafraîchissante et antioxydante. Il est populaire en Afrique et dans les Caraïbes.\n\nPrécautions :\n- Éviter l'utilisation prolongée en raison de son effet diurétique.\n- Ne pas consommer en grandes quantités lors de la grossesse."
+    }
+  ]
+}
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "Tu es un expert en herboristerie. Je vais te donner le nom d'une épice et tu vas me fournir les informations nécessaires pour concevoir une étiquette. Les informations doivent inclure :\n\n- Le nom scientifique de l'épice.\n- Une courte description (3 lignes max) des bienfaits et des cas d'utilisation de l'épice.\n- Deux précautions à prendre lors de l'utilisation de l'épice."
+    },
+    {
+      "role": "user",
+      "content": "Petit cola"
+    },
+    {
+      "role": "assistant",
+      "content": "Nom scientifique : Garcinia cola\n\nDescription : Le petit cola est une plante dont les graines sont utilisées pour leurs propriétés stimulantes et médicinales. Elles sont consommées principalement comme stimulant naturel et pour leurs effets sur la digestion.\n\nPrécautions :\n- Ne pas consommer en grande quantité en raison de la teneur en caféine.\n- Ne pas utiliser en cas de sensibilité à la caféine."
+    }
+  ]
+}
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "Tu es un expert en herboristerie. Je vais te donner le nom d'une épice et tu vas me fournir les informations nécessaires pour concevoir une étiquette. Les informations doivent inclure :\n\n- Le nom scientifique de l'épice.\n- Une courte description (3 lignes max) des bienfaits et des cas d'utilisation de l'épice.\n- Deux précautions à prendre lors de l'utilisation de l'épice."
+    },
+    {
+      "role": "user",
+      "content": "Racine de gongoli"
+    },
+    {
+      "role": "assistant",
+      "content": "Nom scientifique : None\n\nDescription : La racine de gongoli est une plante utilisée dans la médecine traditionnelle africaine pour ses propriétés médicinales. Elle est utilisée pour ses effets antipyrétiques et ses bienfaits sur la digestion.\n\nPrécautions :\n- Consulter un professionnel de santé avant utilisation en cas de conditions médicales préexistantes.\n- Ne pas utiliser pendant la grossesse ou l'allaitement sans avis médical."
+    }
+  ]
+}
