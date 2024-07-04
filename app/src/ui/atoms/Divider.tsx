@@ -7,14 +7,15 @@ interface DividerProps extends React.ComponentProps<"span"> {
 }
 
 export function Divider(props: DividerProps) {
-  const { children, h=1, shade=200, className, ...rest } = props;
+  const { children, h=2, shade=900, className, ...rest } = props;
 
-  const c = classNames(`w-full flex h-[${h}px] bg-gray-${shade}`, className);
+  const c = classNames(`inline-block w-full border-solid border-gray-900`, className);
 
   return (
     <span
       className={c}
+      style={{borderTopWidth: `${h}px`}}
       {...rest}
-    />
+    ></span>
   );
 }

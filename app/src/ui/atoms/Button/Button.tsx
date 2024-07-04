@@ -10,7 +10,7 @@ interface ButtonProps extends React.ComponentProps<"button"> {
 export function Button(props: ButtonProps) {
   const { children, variant="primary", className, ...rest } = props;
 
-  const defaultStyle = "flex font-medium text-sm flex-row py-2 px-4 rounded-lg"
+  const defaultStyle = "flex items-center justify-center font-medium text-sm flex-row py-2 px-4 rounded-lg"
 
   const variantStyle: { [key in variantTypes]: string }  = {
     ghost: "hover:bg-indigo-100",

@@ -10,7 +10,7 @@ export function Heading(props: HeadingProps) {
 
   return (
     <h3
-      className={`inline-block font-medium text-lg text-gray-700 ${className ? className : ""}`}
+      className={`inline-block text-lg text-gray-700 ${className ? className : ""}`}
       {...rest}
     >
       {children}

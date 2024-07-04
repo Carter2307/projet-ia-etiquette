@@ -6,32 +6,33 @@ import { BackButton } from "../molecules/BackButton";
 
 export default function Sidebar() {
   return (
-    <div className="max-w-[320px] h">
-      <Stack direction="col">
+    <div className="max-w-[320px] p-4 bg-gray-100 border-r-[.5px] border-solid border-gray-200">
+      <Stack direction="col" gapy={48}>
         <BackButton/>
 
-        <Stack direction="col">
-          <Heading>Ajouter une étiquette</Heading>
+        <Stack direction="col" gapy={24}>
+            
+          <Heading className="border-solid border-gray-300 border-b-[.5px] pb-2">Ajouter une étiquette</Heading>
 
-          <form>
+          <form className="flex flex-col gap-y-8">
             <Stack direction="col" gapy={8}>
               <Stack direction="col" gapy={4}>
-                <label htmlFor="name">Nom de l'épice</label>
+                <label htmlFor="name" className="text-sm text-gray-600">Nom de l'épice</label>
                 <Input name="name" id="name"/>
               </Stack>
 
               <Stack direction="col" gapy={4}>
-                <label htmlFor="ddm">DDM</label>
+                <label htmlFor="ddm" className="text-sm text-gray-600">DDM</label>
                 <Input name="ddm" id="ddm"/>
               </Stack>
 
               <Stack direction="col" gapy={4}>
-                <label htmlFor="origin">Pays d'origine</label>
+                <label htmlFor="origin" className="text-sm text-gray-600">Pays d'origine</label>
                 <Input name="origin" id="origin"/>
               </Stack>
 
               <Stack direction="col" gapy={4}>
-                <label htmlFor="lot">Numéro de lot</label>
+                <label htmlFor="lot" className="text-sm text-gray-600">Numéro de lot</label>
                 <Input id="lot" />
               </Stack>
             </Stack>
