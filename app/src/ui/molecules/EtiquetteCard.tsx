@@ -1,6 +1,5 @@
 
 import { Text } from "../atoms/Text";
-import { etiquette } from "../../data";
 import { Etiquette } from "../../types/types";
 import { Image } from "../atoms/Image";
 import { Stack } from "../layout/Stack";
@@ -8,7 +7,7 @@ import { Heading } from "../atoms/Headline";
 import { format } from "date-fns"
 
 interface EtiquetteCardProps extends React.ComponentProps<"article"> {
-    data: Pick<Etiquette, "nom" | "id" | "create_at">
+    data: Pick<Etiquette, "nom" | "_id" | "create_at">
 }
 
 const EtiquetteCard : React.FC<EtiquetteCardProps> = (props) => {

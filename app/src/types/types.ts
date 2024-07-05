@@ -1,5 +1,5 @@
 export interface Etiquette {
-  id: string
+  _id: string
   nom: string
   ddm: string
   origin: string
@@ -9,4 +9,19 @@ export interface Etiquette {
   isComplete: boolean;
   lot: string;
   create_at: number;
+}
+
+
+
+export interface ServerResponse<T> {
+  status: "success" | "fail"
+  error?: string | any
+  message?: string,
+  data: {[key: string]: T}
+}
+
+export interface ErrorResponse {
+  status: string
+  error: string | any
+  message: string,
 }
