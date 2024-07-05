@@ -13,12 +13,12 @@ interface EtiquetteCardProps extends React.ComponentProps<"article"> {
 const EtiquetteCard : React.FC<EtiquetteCardProps> = (props) => {
     const {data, ...rest} = props;
     return <article {...rest} className="border-solid border-[1px] border-gray-200 rounded-md shadow-sm hover:shadow-md">
-        <div className="w-full h-32">
+        {/* <div className="w-full h-32">
             <Image className="w-full" fill={true}/>
-        </div>
+        </div> */}
         
         <Stack direction="col" gapy={2} className="p-4">
-            <Heading>{data.nom}</Heading>
+            <Heading className="text-gray-950 font-medium capitalize">{data.nom}</Heading>
             <Text className="text-gray-400">Le {format(data.create_at, 'dd/mm/yyyy')}</Text>
         </Stack>
     </article>

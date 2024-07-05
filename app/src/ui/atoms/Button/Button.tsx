@@ -19,7 +19,7 @@ export function Button(props: ButtonProps) {
 
 
   return (
-    <button className={classNames(defaultStyle, variantStyle[variant])} {...rest}>
+    <button type="button" className={classNames(defaultStyle, variantStyle[variant])} {...rest}>
       {children}
     </button>
   );
@@ -31,11 +31,11 @@ type ButtonWithIconProps = {
 } & ButtonProps;
 
 export function ButtonWithIcon(props: ButtonWithIconProps) {
-  const { icon, children, position } = props;
+  const { icon, children, position , ...rest} = props;
 
   if (position === "left") {
     return (
-      <button type="button" className="flex flex-row items-center py-1 px-2 rounded hover:bg-gray-100">
+      <button type="button" className="flex flex-row items-center py-1 px-2 rounded hover:bg-gray-100" {...rest}>
         {icon}
         {children}
       </button>
